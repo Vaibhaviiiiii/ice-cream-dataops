@@ -2,7 +2,7 @@ name: icapi_extractors
 sourceId: {{ icapi_extractors_source_id }}
 capabilities:
   - datasetsAcl:
-      actions: [READ]
+      actions: [READ, WRITE]
       scope:
         idScope:
           ids: [{{ icapi_ds_external_id }}]
